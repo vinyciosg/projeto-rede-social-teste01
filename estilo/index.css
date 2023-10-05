@@ -15,5 +15,49 @@ body  {
     background-position: center;
 }
 
+section#computador {
+   background-color: yellow;
+   position: absolute;
+
+    top: 48%;
+    left: 48%;
+    transform: translate(-49%, -50%);
+    background: url(../imagens/back-phone.jpg);
+    width: 663px;
+    height: 379px;
+}
+
+iframe#tela {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    width: 662px;
+    height: 379px;
+}
+
+section#redes-sociais {
+    text-align: center;
+    padding-right: 20px;
+ 
+}
+
+section#redes-sociais img {
+    width: 60px;
+    margin: 30px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 4px solid gray;
+    transform: translate(-2px, -2px);
+    transition:  0.3s;
+}
+
+section#redes-sociais img:active {
+    transform: scale(90%);
+}
+
+
 
 
